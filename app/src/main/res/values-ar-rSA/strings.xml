@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صورة من الفضاء هذا اليوم</string>
+    <string name="action_download">تحميل بجودة HD</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_about">عن التطبيق</string>
+    <string name="action_pick_day">اختر يوماً</string>
+    <string name="about_title">تطبيق صورة من الفضاء هذا اليوم</string>
+    <string name="about_description">يعرض هذا التطبيق صورة جديدة أو مقطع فيديو مختلف كل يوم، من قبل شركة ناسا. \n كما يمكن للمستخدم أن يختار أحد الأيام من التقويم لرؤية الصورة الخاصة بذك اليوم.</string>
+    <string name="ok">حسناً</string>
+    <string name="permission_explanation">يحتاج التطبيق الحصول على الإذن لمشاركة البيانات.</string>
+    <string name="share_image">مشاركة الصورة</string>
+    <string name="uri_failed">حدث خطأ أثناء رفع الصورة</string>
+    <string name="download_data">تحميل</string>
+</resources>

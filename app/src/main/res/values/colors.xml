@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/background_transparent_black</color>
+    <color name="colorPrimaryDark">@color/background_transparent_black</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#CCCCCC</color>
+
+    <!-- Dark transparent color -->
+    <color name="background_transparent_black">#55000000</color>
+</resources>

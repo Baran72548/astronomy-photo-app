@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/date_picker_item"
+        android:icon="@drawable/ic_calender"
+        android:title="@string/action_pick_day"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/download_item"
+        android:title="@string/action_download"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share_item"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about_item"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

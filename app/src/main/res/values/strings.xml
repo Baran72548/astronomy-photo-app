@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Astronomy Picture Of The Day</string>
+    <string name="action_download">Download HD</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+    <string name="action_pick_day">Pick a day</string>
+
+    <string name="api_key" translatable="false">fGb1MifU6aqX1juRl8c1KBGxIKzXRfKkLEyNu43n</string>
+    <string name="about_title">Astronomy Photo of The Day</string>
+    <string name="about_description">"Astronomy Picture of The Day App" shows a new picture every day from NASA. \n Also, user can pick a day from
+     the calendar to see the picture of that day.</string>
+    <string name="ok">Ok</string>
+    <string name="permission_explanation">App needs a permission to share data.</string>
+    <string name="share_image">Share Image</string>
+    <string name="uri_failed">Error uploading image</string>
+    <string name="download_data">Download</string>
+</resources>
