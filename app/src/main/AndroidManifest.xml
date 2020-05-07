@@ -22,17 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- make sure within the application tag, otherwise app will crash with XmlResourceParser errors -->
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.astronomypictureoftheday"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/fileprovider" />
-        </provider>
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@
     <string name="about_description">"Astronomy Picture of The Day App" shows a new picture every day from NASA. \n Also, user can pick a day from
      the calendar to see the picture of that day.</string>
     <string name="ok">Ok</string>
-    <string name="permission_explanation">App needs a permission to share data.</string>
+    <string name="permission_explanation">App needs a permission to download image.</string>
     <string name="share_image">Share Image</string>
     <string name="uri_failed">Error uploading image</string>
     <string name="download_data">Download</string>

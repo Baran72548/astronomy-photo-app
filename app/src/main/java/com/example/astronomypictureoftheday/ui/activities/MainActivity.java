@@ -119,10 +119,14 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         int id = item.getItemId();
         switch (id) {
             case R.id.download_item:
-                downloadImage();
+                checkPermission();
                 break;
             case R.id.share_item:
-                checkPermission();
+                if (mAstronomyData.getMediaType().equals("image")) {
+                    shareImage();
+                } else {
+                    shareVideo();
+                }
                 break;
             case R.id.about_item:
                 showAboutDialog();
@@ -165,11 +169,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                         PERMISSION_WRITE_EXTERNAL_STORAGE);
             }
         } else {
-            if (mAstronomyData.getMediaType().equals("image")) {
-                shareImage();
-            } else {
-                shareVideo();
-            }
+            downloadImage();
         }
     }
 
@@ -177,11 +177,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == PERMISSION_WRITE_EXTERNAL_STORAGE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                if (mAstronomyData.getMediaType().equals("image")) {
-                    shareImage();
-                } else {
-                    shareVideo();
-                }
+                downloadImage();
             } else {
                 Toast.makeText(MainActivity.this, R.string.permission_explanation, Toast.LENGTH_SHORT).show();
             }

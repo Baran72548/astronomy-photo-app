@@ -23,7 +23,7 @@ public class DataParser {
         astronomyData.setUrl(jsonObject.getString(URL));
         astronomyData.setMediaType(jsonObject.getString(MEDIA_TYPE));
 
-        if (astronomyData.getMediaType().equals("image")) {
+        if (jsonObject.has(HD_URL)) {
             astronomyData.setHdUrl(jsonObject.getString(HD_URL));
         }
 
